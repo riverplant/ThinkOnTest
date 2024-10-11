@@ -41,7 +41,6 @@ class ThinkOnDemoApplicationTests{
 	    Users userUpdatedUsers = userUpdatedOptional.get();
 	    assertNotNull(userUpdatedUsers);
 	    assertEquals("tester2@gmail.com", userUpdatedUsers.getEmail());
-	    userService.deleteUser(user.getId());
 
 	}
 	
